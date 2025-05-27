@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="185.0" layoutY="37.0" prefHeight="17.0" prefWidth="229.0" text="Welcome to Our Quiz Game Application" />
+      <Label layoutX="29.0" layoutY="81.0" text="Choose Your Nickname:" />
+      <ComboBox layoutX="185.0" layoutY="77.0" prefWidth="150.0" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="200.0" layoutY="151.0" pickOnBounds="true" preserveRatio="true" />
+      <Spinner fx:id="imgSpinner" layoutX="225.0" layoutY="301.0" />
+   </children>
+</AnchorPane>
